@@ -131,14 +131,10 @@
     #page-content-wrapper {
         padding: 20px;
         /* Width of the content page*/
-        width: 750px;
+        width: 700px;
         position: relative;
     }
     #page-all{
-        padding: 20px;
-        /* Width of the content page*/
-        position: relative;
-        background-color: #FFFFD9;
     }
 
     #wrapper.toggled #page-content-wrapper {
