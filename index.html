@@ -28,7 +28,7 @@
 
 </head>
 
-<body>
+<body >
 
     <div id="wrapper">
 
@@ -58,7 +58,7 @@
                 <li>
                 <a href="#"><b>Flickr</b></a>
                 </li>
-                <li style="padding-top: 600px;">
+                <li>
                 <t><h4>&copy; Guanqun CAO, 2016.<h4></t>
                 </li>
 
@@ -66,6 +66,8 @@
         </div>
         <!-- /#sidebar-wrapper -->
 
+        <!-- Page fill-->
+        <div id="page-all">
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
@@ -74,7 +76,8 @@
                         <a href="#menu-toggle"  class="btn btn-default" id="menu-toggle" >
 
                             <img src="images/toggle.png" alt="Toggle!"  height="18" width="18"> Menu  </a>
-                            <h1 style="padding-top: 10px;" name="aboutme">About me</h1> 
+                        <a name="aboutme" style="color: #000">
+                        <h2 style="padding-top: 10px;" >About me</h2> </a>
 <div class="avatar-wrap">
     <img src="images/gq_glass.jpg" alt="That's me!" class="avatar" />
 </div>
@@ -101,7 +104,7 @@
     enjoy skateboarding and taking <a href="photos.html">pictures</a>.
 </p>-->
 
-<h1 style="clear: left">Recent news</h1>
+<h2 style="clear: left">Recent news</h2>
 $partial("templates/post-list.html")$
 
 <a type="application/rss+xml" href="rss.xml"><img style="display: inline"
@@ -112,14 +115,14 @@ $partial("templates/post-list.html")$
 <p>
     Browse: $tags$
 </p>
-    <h1 style="padding-top: 1500px;">
+    <h2 style="padding-top: 1500px;">
         <a name="contact" style="color: #000">
             Contact</a>
-    </h1>
-                <h3><b>Email:</b> </h3>
+    </h2>
+                <h4><b>Email:</b> </h4>
                 <h4>guanqun.cao AT tut.fi</h4>
                 <p>
-                <b> <h3>Office: </h3></b>
+                <b> <h4>Office: </h4></b>
                 </p>
                 <h4> TC 413, Tietotalo, 
                  Korkeakoulunkatu 10,
@@ -131,6 +134,7 @@ $partial("templates/post-list.html")$
             </div>
         </div>
         <!-- /#page-content-wrapper -->
+        </div>
 
     </div>
     <!-- /#wrapper -->
