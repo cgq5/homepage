@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <meta charset="utf-8">
@@ -12,15 +11,15 @@
     <title>Guanqun Cao</title>
 
     <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/icon.png" sizes="16x16">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/freelancer.css" rel="stylesheet">
-    <!-- Bootstrap Social button-->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,109 +30,96 @@
 
 </head>
 
-<body >
+<body>
 
     <div id="wrapper">
 
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#aboutme">
-                <b>Guanqun Cao </b>
-                    </a>
-                </li>
-                <li>
-                <a href="#"><b>Research</b></a>
-                </li>
-                <li>
-                <a href="#"><b>Résumé</b></a>
-                </li>
-                <li>
-                <a href="#"><b>Courses</b></a>
-                </li>
-                <li>
-                <a href="#"><b>Projects</b></a>
-                </li>
-                <li>
-                <a href="#contact"><b>Contact</b></a>
-                </li>
-                <a href="https://github.com/cgq5" style="position:absolute;   left:40px; bottom:-100px;background:#444444;color:white" class="btn btn-social-icon btn-lg btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><span class="fa fa-github"></span></a>
-                <a href="https://fi.linkedin.com/in/guanquncao" style="position:absolute;   left:100px; bottom: -100px; background:#007BB6;color:white " class="btn btn-social-icon btn-lg btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><span class="fa fa-linkedin"></span></a>
-                <a href="https://www.flickr.com/photos/cgq5" style="position:absolute;   left:160px; bottom: -100px; background:#FC329B;color:white" class="btn btn-social-icon btn-lg btn-flickr" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><span class="fa fa-flickr"></span></a>i
-        </div>
-        <!-- /#sidebar-wrapper -->
-        <!-- Page fill-->
-        <div id="page-all">
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top"  role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html"><h3>Guanqun Cao</h3></a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <a href="https://github.com/cgq5" style="background:#444444;color:white" class="btn btn-social-icon btn-lg btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><span class="fa fa-github"></span></a>
+                <a href="https://fi.linkedin.com/in/guanquncao" style="background:#007BB6;color:white " class="btn btn-social-icon btn-lg btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><span class="fa fa-linkedin"></span></a>
+                <a href="https://www.flickr.com/photos/cgq5" style="background:#FC329B;color:white" class="btn btn-social-icon btn-lg btn-flickr" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-lg']);"><span class="fa fa-flickr"></span></a>
+
+
+
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="#">About</a>
+                    <a href="#"> <h4>
+                    <b>
+                            About me
+                    </b>
+                    </h2></a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                    <a href="#"> <h4>
+                    <b>
+                            Research
+                    </b>
+                    </h2></a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                    <a href="#"> <h4>
+                    <b>
+                            Résumé
+                    </b>
+                    </h4></b></a>
                     </li>
+                    <li>
+                    <a href="#"> <h4>
+                    <b>
+                            Courses
+                    </b>
+                    </h4></a>
+                    </li>
+                    <li>
+                    <a href="#"> <h4>
+                    <b>
+                            Projects
+                    </b>
+                    </h4></a>
+                    </li>
+                    <li>
+                    <a href="#"> <h4>
+                    <b>
+                            Contact
+                    </b>
+                    </h4></a>
+                    </li>
+                </ul>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+        </nav>
 
-                        <a href="#menu-toggle"  class="btn btn-default" id="menu-toggle" >
-                        <img src="images/toggle.png" alt="Toggle!"  height="18" width="18" > Menu  </a>
-                        <a name="aboutme" style="color: #000">
-                        <h2 style="padding-top: 10px;" >About me</h2> </a>
-<div class="avatar-wrap">
-    <img src="images/gq_glass.jpg" alt="That's me!" class="avatar" />
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 style="padding-top: 20px;" >About me</h2> </a>
+                            <div class="avatar-wrap">
+                                <img src="images/gq_glass.jpg" alt="That's me!" class="avatar" />
 </div>
-<!-- /#sidebar-wrapper -->
-<!-- /#sidebar-wrapper   
-<p>
-  Hi! I am Jasper Van der Jeugt. I was born in 1990, and spent most of my
-    youth in Lokeren &amp; Ghent, Belgium. I currently live in Zürich and write
-    <a href="http://haskell.org/">Haskell</a> code for companies
-    such as <a href="http://luminal.io/">Luminal</a>,
-    <a href="http://bdellium.com/">Bdellium</a> and previously
-    <a href="http://better.io/">Better</a>.
-    Before that, I studied Computer Science at
-    <a href="http://ugent.be/">Ghent University</a>.
-</p>
 
-<p>
-    Did I tell you I like to make stuff? I love to make stuff! That is why I am
-    somewhat active in
-    <a href="cv.html#open-source-contributions">open source development</a>.
-</p>
-<p>
-    Apart from that, I have a very broad taste in music and movies, and I also
-    enjoy skateboarding and taking <a href="photos.html">pictures</a>.
-</p>-->
-
-<h2 style="clear: left">Recent news</h2>
-$partial("templates/post-list.html")$
+                        <h2 style="clear: left">Recent news</h2>
+                        $partial("templates/post-list.html")$
 
 <a type="application/rss+xml" href="rss.xml"><img style="display: inline"
         alt="rss feed" src="images/rss.png" />
@@ -147,22 +133,26 @@ $partial("templates/post-list.html")$
         <a name="contact" style="color: #000">
             Contact</a>
     </h2>
-                <h4><b>Email:</b> </h4>
-                <h4>guanqun.cao AT tut.fi</h4>
+                <h3><b>Email:</b> </h3>
+                <h4 style="color: #000">guanqun.cao AT tut.fi</h4>
                 <p>
-                <b> <h4>Office: </h4></b>
+                <b> <h3>Office: </h3></b>
                 </p>
-                <h4> TC 413, Tietotalo, 
+                <h4 style="color: #000"> TC 413, Tietotalo, 
                  Korkeakoulunkatu 10,
                 FI-33720 Tampere 
                 Finland </h4> 
 
+
                     </div>
                 </div>
+                <!-- /.row -->
+
             </div>
+            <!-- /.container-fluid -->
+
         </div>
-        <!-- /#page-content-wrapper -->
-        </div>
+        <!-- /#page-wrapper -->
 
     </div>
     <!-- /#wrapper -->
@@ -172,15 +162,6 @@ $partial("templates/post-list.html")$
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
 
 </body>
 
