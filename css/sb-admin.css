@@ -136,7 +136,7 @@ ul.alert-dropdown {
     .side-nav>li>a {
         background-color: #112667;
         width: 225px;
-        left: 15px;
+        left: 0;
     }
 
     .side-nav li a:hover,
