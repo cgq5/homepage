@@ -118,7 +118,7 @@ ul.alert-dropdown {
 @media(min-width:768px) {
     .side-nav {
         position: fixed;
-        top: 80px;
+        top: 61px;
         left: 225px;
         width: 225px;
         height: 100%;
